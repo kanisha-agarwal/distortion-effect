@@ -1,1 +1,2 @@
 # distortion-effect
+By taking the two sine wave values, a waveform is created in audacity. Then, it is exported as .wav file and converted to .dat file using sox. It is then imported in python as a PCM format input signal on which distortion effect using hard clipping is applied. Later on, distorted output signal out.dat is attained and is exported in audacity as out.wav which verifies the similar waveform as the original one.
