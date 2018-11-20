@@ -12,7 +12,7 @@ import random
 import math
 import matplotlib.pyplot as plt
 
-# Header data is removed from kanishasine.dat to read the data.
+# Header data is removed from input.dat to read the data.
 data = pd.read_csv("input.dat", header = None, delimiter = r"\s+")
 
 x = data [ 0 ]
